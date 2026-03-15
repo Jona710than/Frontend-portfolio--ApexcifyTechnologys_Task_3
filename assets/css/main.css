@@ -29,7 +29,7 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f9f9f9;
+  --background-color: rgba(0, 1, 18, 0.479);
   --surface-color: #ffffff;
 }
 
@@ -42,7 +42,7 @@
 }
 
 /* Smooth scroll */
-:root {
+* {
   scroll-behavior: smooth;
 }
 
@@ -466,6 +466,7 @@ h6 {
   margin-bottom: 10px;
 }
 
+
 .footer .footer-about .logo img {
   max-height: 40px;
   margin-right: 6px;
@@ -476,7 +477,7 @@ h6 {
   font-weight: 700;
   letter-spacing: 1px;
   font-family: var(--heading-font);
-  color: var(--heading-color);
+  color: var(--accent-color);
 }
 
 .footer .footer-about p {
@@ -838,7 +839,10 @@ section,
   font-size: 24px;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
-
+.col-xl-2:hover .icon-box {
+  transform: scale(1.1);
+  transition: 1s;
+}
 .hero .icon-box {
   padding: 30px 20px;
   transition: ease-in-out 0.3s;
@@ -1041,6 +1045,34 @@ section,
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   transform: translateY(-10px);
 }
+.services .service-item button {
+ width: 100px;
+ height: 40px;
+ max-height: 100%;
+ color: var(--contrast-color);
+  background: var(--accent-color);
+  border: none;
+  outline: none;
+ border-radius: 10px;
+ margin-top: 15px;
+}
+.services .service-item button a {
+ color: var(--contrast-color);
+
+}
+/* .services .service-item button:hover {
+background: var(--contrast-color);
+  color:var(--accent-color);
+   border: 1px solid var(--accent-color);
+}
+.services .service-item button:hover a{
+  color:var(--accent-color);
+ 
+}
+.services .service-item button a {
+ color: var(--contrast-color);
+
+} */
 
 /*--------------------------------------------------------------
 # Call To Action Section
