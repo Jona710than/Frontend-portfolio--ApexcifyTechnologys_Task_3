@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This is where I showcase my work, skil
 
 🔗 **Live Site**:
 ApexcifyTechnologys_Task_3
-https://jona710than.github.io/Frontend-portfolio--ApexcifyTechnologys_Task_3/
+https://jona710than.github.io/Frontend-portfolio/
 
 ---
 
